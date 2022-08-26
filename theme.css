@@ -4,9 +4,23 @@
 
 /* ------------------ Vars ------------------------*/
 
-
-
-
+:root {
+    --white: #fffff;
+    --pure-black: black;
+    --black: #24292f;
+    --black-light: #57606a;
+    --btn-color: #2f2f2f;
+    --sidebar-bg: #f6f8fa;
+    --sidebar-item-selected-color: #e6e6e6;
+    --sidebar-item-selected-hover-color: #dfdfdf;
+    --sidebar-disabled-text-color: #6e7781;
+    --sidebar-item-hover-color: #f1f1f1;
+    --second-sidebar-item-selected-color: #f4f5f6;
+    --second-sidebar-item-hover-color: #fbfbfb;
+    --second-sidebar-item-border: 1px solid #f0f0f0;
+    --grey-border: 1px solid #d0d7de;
+    --icon-hover-bg-color: #b8b8b84f
+}
 
 /* ------------------ Sidebar ------------------------*/
 
@@ -17,50 +31,43 @@
 }
 
 .sidebar {
-    background-color: #f6f8fa !important;
-    border-right: 1px solid #d0d7de !important;
+    background-color: var(--sidebar-bg) !important;
+    border-right: var(--grey-border) !important;
 }
 
-/* Sidebar bg */
-/* .rli-sideBar{
-    background-color: #F4F5F6 !important;
-} */
-
 /* Sidebar Header */
-.eIbLtS span {
-    color: #24292f !important;
+.eIbLtS span,
+.eOarHg {
+    color: var(--black) !important;
 }
 
 /* Sidebar Item */
-.eOarHg {
-    color: #24292f !important;
-}
 
 .folders .list-item-container:hover,
 .tags .list-item-container:hover {
-    background-color: #f1f1f1 !important;
+    background-color: var(--sidebar-item-hover-color) !important;
 }
 
 .folders .list-item-container.selected,
 .tags .list-item-container.selected {
-    background-color: #e6e6e6 !important;
+    background-color: var(--sidebar-item-selected-color) !important;
 }
 
 .folders .list-item-container.selected .title,
 .tags .list-item-container.selected .tag-label {
-    color: #24292f;
+    color: var(--black);
     font-weight: 500;
 }
 
 .folders .list-item-container.selected .note-count-label,
 .tags .list-item-container.selected .note-count-label {
-    color: #24292f;
+    color: var(--black);
 }
 
 
 .folders .list-item-container.selected:hover,
 .tags .list-item-container.selected:hover {
-    background-color: #dfdfdf !important;
+    background-color: var(--sidebar-item-selected-hover-color) !important;
 }
 
 
@@ -76,27 +83,20 @@
 }
 
 /* Sidebar disable-Item */
-.likJgd {
-    color: #6e7781 !important;
+.likJgd,
+.sidebar .dDQgvd,
+.gYkyEX {
+    color: var(--sidebar-disabled-text-color) !important;
 }
 
 /* Item Arrows */
 
 .sidebar .fas {
-    color: black !important;
-}
-
-.sidebar .dDQgvd {
-    color: #6e7781;
-}
-
-/* Side bar bottom elements */
-.gYkyEX {
-    color: #6e7781 !important;
+    color: var(--pure-black) !important;
 }
 
 .jBRUMO {
-    background-color: #2f2f2f !important;
+    background-color: var(--btn-color) !important;
     border-radius: 25px !important;
 }
 
@@ -104,24 +104,24 @@
 
 /* Container */
 .gZSVJS {
-    border-right: 1px solid #d0d7de !important;
+    border-right: var(--grey-border) !important;
 }
 
 /* Second side bg */
 .dUaXPj {
-    background-color: #fff !important;
+    background-color: var(--white) !important;
     border-right: unset !important;
 }
 
 /* Icons bar */
 .kbvovF {
-    background-color: #fff !important;
+    background-color: var(--white) !important;
 }
 
 /* Top Icons */
 
 .rHJEa {
-    background-color: #fff !important;
+    background-color: var(--white) !important;
 }
 
 .rHJEa .icon-note {
@@ -130,46 +130,45 @@
 
 .hiTMxw {
     border: none !important;
-    background-color: #fff !important;
+    background-color: var(--white) !important;
 }
 
 .bWOglY {
     font-size: 15px !important;
-    color: #57606a !important;
+    color: var(--black-light) !important;
 }
 
 .iPvite {
-    color: #57606a !important;
+    color: var(--black-light) !important;
 }
 
 .bPQimV {
-    color: #57606a !important;
+    color: var(--black-light) !important;
 }
 
 /* Items */
 
 .note-list-item:before,
 .todo-list-item:before {
-    border-bottom: 1px solid #f0f0f0 !important;
+    border-bottom: var(--second-sidebar-item-border) !important;
 }
 
 .item-list .list-item-container:hover {
-    background-color: #fbfbfb !important;
+    background-color: var(--second-sidebar-item-hover-color) !important;
 }
 
 .item-list .list-item-container.selected {
-    background-color: #f4f5f6 !important;
+    background-color: var(--second-sidebar-item-selected-color) !important;
 }
 
-.todo-list-item input {
-    accent-color: #2f2f2f;
+input[type='checkbox'] {
+    accent-color: var(--btn-color) !important;
 }
-
 
 /* Body */
 
 .rli-editor>div>div {
-    background-color: white !important;
+    background-color: var(--white) !important;
 }
 
 .joplin-tinymce {
@@ -192,28 +191,22 @@
 
 .tox .tox-toolbar__group .tox-tbtn svg,
 .tox .tox-toolbar__group .tox-tbtn {
-    color: #57606a !important;
-    fill: #57606a !important;
+    color: var(--black-light) !important;
+    fill: var(--black-light) !important;
 }
 
 .jmaLHH {
-    color: #57606a !important;
+    color: var(--black-light) !important;
 }
 
-.bhIpvW:hover {
-    background-color: #b8b8b84f !important;
-}
-
-.gnqIdO:hover {
-    background-color: #b8b8b84f !important;
-}
-
+.bhIpvW:hover,
+.gnqIdO:hover,
 .tox .tox-tbtn:hover {
-    background-color: #b8b8b84f !important;
+    background-color: var(--icon-hover-bg-color) !important;
 }
 
 .dLxEDu {
-    background-color: #2f2f2f !important;
+    background-color: var(--btn-color) !important;
 }
 
 .dLxEDu .icon-notebooks {
@@ -223,49 +216,49 @@
 /* --------------------------Config-------------------- */
 
 .config-screen>div:nth-child(1) {
-    background-color: #f6f8fa !important;
-    border-right: 1px solid #d0d7de !important;
+    background-color: var(--sidebar-bg) !important;
+    border-right: var(--grey-border) !important;
 }
 
 .config-screen>div:nth-child(2) {
-    background-color: white !important;
+    background-color: var(--white) !important;
 }
 
 .config-screen>div:nth-child(1) a * {
-    color: #24292f;
+    color: var(--black);
 }
 
 .config-screen>div:nth-child(1) a.hWxWTS * {
-    color: #131518;
+    color: var(--black);
 }
 
 .config-screen>div:nth-child(1) a.hWxWTS,
 .config-screen>div:nth-child(1) a.hWxWTS:hover {
-    background-color: #e6e6e6 !important;
+    background-color: var(--sidebar-item-selected-color) !important;
 }
 
 .config-screen>div:nth-child(1) a:hover {
-    background-color: #f1f1f1 !important;
+    background-color: var(--sidebar-item-hover-color) !important;
 }
 
 
 /* buttons */
 
 .hQVMFi {
-    background-color: #2f2f2f !important;
+    background-color: var(--btn-color) !important;
 }
 
 .jUNGaY .fa {
-    color: #2f2f2f !important;
+    color: var(--btn-color) !important;
 }
 
 .jUNGaY .sc-AxiKw {
-    color: #2f2f2f !important;
+    color: var(--btn-color) !important;
 }
 
 
 /* --------------------------------Modals-------------------------------- */
 
 .master-password-dialog .dialog-content {
-    background-color: #ffffff !important;
+    background-color: var(--white) !important;
 }
