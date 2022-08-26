@@ -1,0 +1,271 @@
+/* Joplin Theme: Joplin Minimalist Light Theme*/
+/* Author: Manuel Ernesto Garcia (manuelernestog.github.io)*/
+/* Made for Joplin 2.8.8 */
+
+/* ------------------ Vars ------------------------*/
+
+
+
+
+
+/* ------------------ Sidebar ------------------------*/
+
+.sidebar .icon-notebooks,
+.sidebar .icon-tags,
+.sidebar .icon-notes {
+    display: none;
+}
+
+.sidebar {
+    background-color: #f6f8fa !important;
+    border-right: 1px solid #d0d7de !important;
+}
+
+/* Sidebar bg */
+/* .rli-sideBar{
+    background-color: #F4F5F6 !important;
+} */
+
+/* Sidebar Header */
+.eIbLtS span {
+    color: #24292f !important;
+}
+
+/* Sidebar Item */
+.eOarHg {
+    color: #24292f !important;
+}
+
+.folders .list-item-container:hover,
+.tags .list-item-container:hover {
+    background-color: #f1f1f1 !important;
+}
+
+.folders .list-item-container.selected,
+.tags .list-item-container.selected {
+    background-color: #e6e6e6 !important;
+}
+
+.folders .list-item-container.selected .title,
+.tags .list-item-container.selected .tag-label {
+    color: #24292f;
+    font-weight: 500;
+}
+
+.folders .list-item-container.selected .note-count-label,
+.tags .list-item-container.selected .note-count-label {
+    color: #24292f;
+}
+
+
+.folders .list-item-container.selected:hover,
+.tags .list-item-container.selected:hover {
+    background-color: #dfdfdf !important;
+}
+
+
+.folders .list-item-container .list-item div:not(.note-count-label) span,
+.tags .list-item-container .list-item div:not(.note-count-label) span {
+    font-size: 16px !important;
+}
+
+.item-list .list-item-container span {
+    text-overflow: ellipsis;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+/* Sidebar disable-Item */
+.likJgd {
+    color: #6e7781 !important;
+}
+
+/* Item Arrows */
+
+.sidebar .fas {
+    color: black !important;
+}
+
+.sidebar .dDQgvd {
+    color: #6e7781;
+}
+
+/* Side bar bottom elements */
+.gYkyEX {
+    color: #6e7781 !important;
+}
+
+.jBRUMO {
+    background-color: #2f2f2f !important;
+    border-radius: 25px !important;
+}
+
+/* ---------------------Second side bar -------------------*/
+
+/* Container */
+.gZSVJS {
+    border-right: 1px solid #d0d7de !important;
+}
+
+/* Second side bg */
+.dUaXPj {
+    background-color: #fff !important;
+    border-right: unset !important;
+}
+
+/* Icons bar */
+.kbvovF {
+    background-color: #fff !important;
+}
+
+/* Top Icons */
+
+.rHJEa {
+    background-color: #fff !important;
+}
+
+.rHJEa .icon-note {
+    font-size: 17px !important;
+}
+
+.hiTMxw {
+    border: none !important;
+    background-color: #fff !important;
+}
+
+.bWOglY {
+    font-size: 15px !important;
+    color: #57606a !important;
+}
+
+.iPvite {
+    color: #57606a !important;
+}
+
+.bPQimV {
+    color: #57606a !important;
+}
+
+/* Items */
+
+.note-list-item:before,
+.todo-list-item:before {
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.item-list .list-item-container:hover {
+    background-color: #fbfbfb !important;
+}
+
+.item-list .list-item-container.selected {
+    background-color: #f4f5f6 !important;
+}
+
+.todo-list-item input {
+    accent-color: #2f2f2f;
+}
+
+
+/* Body */
+
+.rli-editor>div>div {
+    background-color: white !important;
+}
+
+.joplin-tinymce {
+    margin-right: 8px;
+}
+
+.joplin-tinymce div:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.joplin-tinymce div:nth-child(2) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.joplin-tinymce .tox .tox-edit-area__iframe {
+    margin-top: 7px !important;
+}
+
+.tox .tox-toolbar__group .tox-tbtn svg,
+.tox .tox-toolbar__group .tox-tbtn {
+    color: #57606a !important;
+    fill: #57606a !important;
+}
+
+.jmaLHH {
+    color: #57606a !important;
+}
+
+.bhIpvW:hover {
+    background-color: #b8b8b84f !important;
+}
+
+.gnqIdO:hover {
+    background-color: #b8b8b84f !important;
+}
+
+.tox .tox-tbtn:hover {
+    background-color: #b8b8b84f !important;
+}
+
+.dLxEDu {
+    background-color: #2f2f2f !important;
+}
+
+.dLxEDu .icon-notebooks {
+    display: none;
+}
+
+/* --------------------------Config-------------------- */
+
+.config-screen>div:nth-child(1) {
+    background-color: #f6f8fa !important;
+    border-right: 1px solid #d0d7de !important;
+}
+
+.config-screen>div:nth-child(2) {
+    background-color: white !important;
+}
+
+.config-screen>div:nth-child(1) a * {
+    color: #24292f;
+}
+
+.config-screen>div:nth-child(1) a.hWxWTS * {
+    color: #131518;
+}
+
+.config-screen>div:nth-child(1) a.hWxWTS,
+.config-screen>div:nth-child(1) a.hWxWTS:hover {
+    background-color: #e6e6e6 !important;
+}
+
+.config-screen>div:nth-child(1) a:hover {
+    background-color: #f1f1f1 !important;
+}
+
+
+/* buttons */
+
+.hQVMFi {
+    background-color: #2f2f2f !important;
+}
+
+.jUNGaY .fa {
+    color: #2f2f2f !important;
+}
+
+.jUNGaY .sc-AxiKw {
+    color: #2f2f2f !important;
+}
+
+
+/* --------------------------------Modals-------------------------------- */
+
+.master-password-dialog .dialog-content {
+    background-color: #ffffff !important;
+}
