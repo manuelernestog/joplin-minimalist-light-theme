@@ -1,7 +1,7 @@
 # joplin-minimalist-light-theme
 Minimalist Light theme for [joplin](https://joplinapp.org/)
 
-![Minimalist Light theme](https://github.com/[manuelernestog]/[joplin-minimalist-light-theme]/blob/[main]/docs/theme.png?raw=true)
+![Minimalist Light theme](https://github.com/manuelernestog/joplin-minimalist-light-theme/blob/main/docs/theme.png?raw=true)
 
 ## Installation Instructions
 
