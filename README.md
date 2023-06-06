@@ -1,6 +1,8 @@
 # joplin-minimalist-light-theme
 Minimalist Light theme for [joplin](https://joplinapp.org/)
 
+This theme is not compatible with newer versions 2.8.8+. 
+
 ![Minimalist Light theme](https://github.com/manuelernestog/joplin-minimalist-light-theme/blob/main/docs/theme.png?raw=true)
 
 ## Installation Instructions
